@@ -1,0 +1,12 @@
+import React, { ReactNode } from 'react'
+import { cn } from '@/lib/utils'
+export default function ({className , children} : {
+    className?:string
+    children:ReactNode
+}) {
+  return (
+    <div className={cn('h-full mx-auto w-full max-w-7xl px-2.5 md:px-20',className)}>
+        {children}
+    </div>
+  )
+}
