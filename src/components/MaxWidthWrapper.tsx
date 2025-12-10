@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react'
 import { cn } from '@/lib/utils'
-export default function ({className , children} : {
+export default function MaxWidthWrapper ({className , children} : {
     className?:string
     children:ReactNode
 }) {
